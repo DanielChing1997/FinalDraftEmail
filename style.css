@@ -1,0 +1,26 @@
+/*style your template in an external CSS stylesheet*/
+
+.column1 {
+    border:4px black solid;
+    align-items: center;
+    text-align: center;
+  }
+.column2 {
+    border:5px black solid; 
+  }
+.column3{
+  border:5px black solid;
+}
+.column4{
+  border:5px black solid;
+}
+.ching {
+  border:2px black solid;
+}
+.emailRow{
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+.checkbox{
+  margin: 5px;
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  <title>Bootstrap Email Template</title>
+</head>
+<body>
+  <div class="container-fluid">
+    <!-- this is my nav bar -->
+    <!-- Taken from bootstrap-->
+    <nav class="navbar bg-body-tertiary">
+  <a class="navbar-brand ching" href="#">
+    <img src="https://pbs.twimg.com/media/DZujLUuUMAAoLu_?format=png&name=large" alt="Logo" width="50" height="30" class="d-inline-block align-text-top">
+    ChingMail</a>
+    
+    <form class="d-flex" role="search">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+    </nav>
+    <!-- THIS IS MY EMAIL CODE -->
+    <div class="row vh-100">
+     <!-- This is my first column to the left it includes inbox buttons. I would like to turn this into a drop down menu or a hamburger menu Not sure yet-->
+      <div class="col-sm-1 col-md-1 col-lg-1 column1">
+        <h1><centre>Inboxes</centre></h1>
+        <button type="button" class="btn btn-danger">Main Inbox</button>
+        <p></p>
+        <button type="button" class="btn btn-danger">Drafts</button>
+        <p></p>
+        <button type="button" class="btn btn-danger">Sent</button>
+        <p></p>
+        <button type="button" class="btn btn-danger">Trash</button>
+      </div>
+    <!-- This is where my 2nd column begins -->
+      <div class="col-sm-5 col-md-5 col-lg-5 column3">
+    <!-- I added in a column here to add buttons on top-->
+        <h2> Inbox <button type="button" class="btn btn-primary">Compose</button></h2>
+        <!-- this is where the emails are put into their rows-->
+        <!-- I want to make it so you can expand these-->    
+      <div class="emailRow">
+        <div class="message-box row p-3 border-bottom border-light bg-secondary-subtle">
+        <h3 class="emailRow_sender">OnlyPans</h3>
+        <div class="emailRow_message">
+          <h4>Thank you for renewing your subscription to OnlyPans!</h4>
+        </div>
+        <p class="emailRow_time">10:42pm</p>
+      </div>    
+          <h3 class="emailRow_sender">Apple</h3>
+        <div class="emailRow_message">
+          <h4>Urgent! Your account has been hacked! Reply with your social security number to get it back!</h4>
+        </div>        
+        <p class="emailRow_time">10:42pm</p>
+        <h3 class="emailRow_sender">Runescape</h3>
+        <div class="emailRow_message">
+          <h4>Subscribe to Runescape please!!!!</h4>
+        </div>
+        
+        <p class="emailRow_time">10:42pm</p>
+        <h3 class="emailRow_sender">HBO Max</h3>
+        <div class="emailRow_message">
+          <h4>Are you 100% certain that you want to cancel your subscription? Please reconsider.</h4>
+        </div>
+        <p class="emailRow_time">10:42pm</p>
+        <h3 class="emailRow_sender">Pregnant</h3>
+        <div class="emailRow_message">
+          <h4>Hey Daniel turns out I am pregnant and you are the father pelase respond</h4>
+        </div>
+        <p class="emailRow_time">10:42pm</p>
+        <h3 class="emailRow_sender">SPOOKY</h3>
+        <div class="emailRow_message">
+          <h4>Forward this email to 10 people or perish in the next 5 seconds!</h4>
+        </div>
+        <p class="emailRow_time">10:42pm</p>
+        <h3 class="emailRow_sender">World of Warcraft</h3>
+        <div class="emailRow_message">
+          <h4>You want to play our game again sooooo bad</h4>
+        </div>
+        <p class="emailRow_time">10:42pm</p>
+        <h3 class="emailRow_sender">OnlyPans</h3>
+        <div class="emailRow_message">
+          <h4>Thank you for renewing your subscription to OnlyPans!</h4>
+        </div>
+        <p class="emailRow_time">10:42pm</p>
+        <h3 class="emailRow_sender">Spam</h3>
+        <div class="emailRow_message">
+          <h4>Hello yes this is spam please click this link please buy my product!</h4>
+        </div>
+        <p class="emailRow_time">10:42pm</p>
+        <h3 class="emailRow_sender">King of England </h3>
+        <div class="emailRow_message">
+          <h4>Hello I am the king of england and I n33d 1 million dollars please please please!!! </h4>
+        </div>
+        <p class="emailRow_time">10:42pm</p>
+          </div>   
+        </div>
+        <div class="col-sm-5 col-md-6 col-lg-6 column4">
+          <div class="row p-2 ms-3 mb-2 message-header">
+            <div class="col">
+                <h1> OnlyPans </h1>
+                <p> Subject: Thank you for renewing your subscription to OnlyPans!</p>
+            </div>
+          </div>
+          <div class="row p-2 ms-3 mb-2 email-content rounded-1 ">
+            <!--made this paragraph using chat gpt-->
+            <p> Dear Daniel,</p>
+            <p class="indent">We hope this email finds you well and that you're ready for another sizzling season of delightful culinary adventures! We are delighted to inform you that your OnlyPans subscription has been successfully renewed, and we couldn't be happier to have you back as a valued member of our community.</p>
+            <p class="indent">As an esteemed subscriber, you already know that OnlyPans is your gateway to a world of delectable recipes, expert cooking tips, and a vibrant community of food enthusiasts. With your renewed subscription, you can continue to explore an extensive collection of mouthwatering dishes, experiment with new cooking techniques, and connect with like-minded individuals who share your passion for culinary excellence.</p>
+            <p class="indent">We value your continued trust and support in OnlyPans, and we promise to bring you an even more remarkable culinary experience with our enhanced features and ever-growing content library.</p>
+            <p class="indent">If you have any questions, concerns, or simply want to share your latest culinary triumph, please don't hesitate to reach out to our dedicated customer support team. We're here to assist you in every way we can.</p>
+            <p class="indent">Once again, thank you for renewing your OnlyPans subscription. Get ready to embark on a tantalizing culinary journey that will elevate your cooking skills and ignite your passion for food.</p>
+            <p class="indent">Warmest regards,</p>
+            <p class="indent">OnlyPans</p>
+          </div>
+          <!-- this is the text box where people will put their replies -->
+          <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">Input response here</label>
+            <button type="button" class="btn btn-primary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"></path>
+              </svg>
+              Reply
+            </button>            
+          </div>
+        </div>
+      </div>     
+    </div>   
+  </div>
+</body>
+</html>
